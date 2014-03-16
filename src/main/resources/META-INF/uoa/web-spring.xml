@@ -9,10 +9,6 @@
     http://www.springframework.org/schema/context/spring-context-3.2.xsd
   ">
     <context:annotation-config/>
+
     <import resource="classpath*:META-INF/uoa/spring-*.xml" />
-    <!--
-    <bean id="jdkLogging" class="nz.ac.auckland.epr.SLF4JBridgeInstaller" init-method="install" destroy-method="uninstall" />
-    -->
-
-
 </beans>
